@@ -1,10 +1,15 @@
 
 public abstract class Book
 	{
-		public int numOfPages;
-		public boolean hardOrSoftCover;
+		private int numOfPages;
+		private boolean hardOrSoftCover;
 		
-			public Book(int numOfPages , boolean hardOrSoftCover)
+		public Book()
+			{
+				
+			}
+		
+		public Book(int numOfPages , boolean hardOrSoftCover)
 			{
 				this.numOfPages = numOfPages;
 				this.hardOrSoftCover = hardOrSoftCover;
@@ -30,4 +35,5 @@ public abstract class Book
 					this.hardOrSoftCover = hardOrSoftCover;
 				}
 			
+			public abstract void openBook();
 	}

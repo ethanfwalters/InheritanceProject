@@ -3,7 +3,12 @@ public class Nonfiction extends Book
 	{
 		private int numberOfFacts;
 		
-			public Nonfiction(int numberOfFacts)
+		public Nonfiction()
+			{
+				
+			}
+		
+		public Nonfiction(int numberOfFacts)
 				{
 					this.numberOfFacts = numberOfFacts;
 				}
@@ -17,5 +22,10 @@ public class Nonfiction extends Book
 			{
 				this.numberOfFacts = numberOfFacts;
 			}
+		
+		public void openBook()
+		{
+			System.out.println("You opened a non-fiction book!");
+		}
 		
 	}
