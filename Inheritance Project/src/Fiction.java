@@ -21,14 +21,22 @@ public class Fiction extends Book
 			this.numberOfHeros = numberOfHeros;
 		}
 		
+		public void openBook()
+		{
+			System.out.println("You opened a Fiction Book!");
+		}
+		
+		// these are the methods for this class:
+		
 		public void createHeo()
 		{
 			System.out.println("You have just made a hero!");
 		}
 		
-		public void openBook()
+		public void fun()
 		{
-			System.out.println("You opened a Fiction Book!");
+			System.out.println("This is so much fun!");
 		}
+		
 	
 }

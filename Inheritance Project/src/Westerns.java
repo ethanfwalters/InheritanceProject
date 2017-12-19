@@ -4,7 +4,12 @@ public class Westerns extends Fiction
 	private String stateIsIn;
 	private boolean isViolent;
 	
-		public Westerns(String stateIsIn , boolean isViolent)
+	public Westerns() 
+	{
+	
+	}
+	
+	public Westerns(String stateIsIn , boolean isViolent)
 		{
 			this.stateIsIn = stateIsIn;
 			this.isViolent = isViolent;
@@ -25,6 +30,8 @@ public class Westerns extends Fiction
 	public void setStateIsIn(String stateIsIn) {
 		this.stateIsIn = stateIsIn;
 		}
+	
+	// these are the methods for this class:
 	
 	public void rideHorce()
 	{
