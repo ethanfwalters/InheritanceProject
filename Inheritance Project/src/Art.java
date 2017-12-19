@@ -38,4 +38,9 @@ public class Art extends Nonfiction
 			System.out.println("Art is subjective, therefor impossible to explain.");
 		}
 		
+		public void surrealism()
+		{
+			System.out.println("no.");
+		}
+		
 }
