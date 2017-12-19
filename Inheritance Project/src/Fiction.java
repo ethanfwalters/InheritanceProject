@@ -28,6 +28,7 @@ public class Fiction extends Book
 		
 		// these are the methods for this class:
 		
+		//this method should be overridden by the one in the westerns class.
 		public void createHeo()
 		{
 			System.out.println("You have just made a hero!");

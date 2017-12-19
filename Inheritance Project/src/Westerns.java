@@ -37,5 +37,13 @@ public class Westerns extends Fiction
 	{
 		System.out.println("Weee! Im  riding a horce!");
 	}
+	
+	
+	// this is the over ridden method
+	
+	public void createHero()
+	{
+		System.out.println("Wow! you just made a Western hero, probably a cowboy.");
+	}
 		
 }

@@ -35,10 +35,13 @@ public abstract class Book
 					this.hardOrSoftCover = hardOrSoftCover;
 				}
 			
+			public abstract void openBook();
+			
+			// these are the methods for this class:
+			
 			public void whatIsThis()
 			{
 				System.out.println("This is a book!");
 			}
 			
-			public abstract void openBook();
 	}
