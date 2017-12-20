@@ -8,7 +8,7 @@ public class Runner
 		
 		makeLibraries();
 		testOverride();
-		//testCasting();
+		testCasting();
 		
 	}
 	
@@ -21,7 +21,7 @@ public class Runner
 			adultLibrary.add(new Biographies());
 			adultLibrary.add(new Nonfiction());
 			
-			adultLibrary.get(0).explainArtwork();
+			adultLibrary.get(0).learning();
 			
 			ArrayList <Fiction> childLibrary = new ArrayList <Fiction> ( );
 			
@@ -52,7 +52,7 @@ public class Runner
 			
 			Nonfiction test2 = new Art();
 			
-			(Art).test2.explainArtwork();
+			((Art) test2).explainArtwork();
 			
 		}
 	
