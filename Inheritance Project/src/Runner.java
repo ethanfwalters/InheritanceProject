@@ -21,6 +21,8 @@ public class Runner
 			adultLibrary.add(new Biographies());
 			adultLibrary.add(new Nonfiction());
 			
+			adultLibrary.get(0).explainArtwork();
+			
 			ArrayList <Fiction> childLibrary = new ArrayList <Fiction> ( );
 			
 			childLibrary.add(new Westerns());
